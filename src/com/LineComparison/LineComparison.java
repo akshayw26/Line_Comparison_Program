@@ -39,10 +39,3 @@ public class LineComparison {
             System.out.println(" line 2 is greater than line 1 ");
         }
     }
-          private static boolean compare(double lineLength1, double lineLength2) {
-           return false;
-
-        }
-    }
-
-
