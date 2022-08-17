@@ -32,12 +32,16 @@ public class LineComparison {
         System.out.println("-------------------------------------");
         System.out.println(" Length of line 1 is  : "+lineLength1);
         System.out.println(" Length of line 2 is  : "+lineLength2);
-        //used equals method
-        if(lineLength1.equals(lineLength2)) {
-            System.out.println(" Both Lines are equals. ");
+        //used compareTo method
+        if(compare(lineLength1,lineLength2)) {
+            System.out.println(" Line 1 is greater than line 2 ");
         }else {
-            System.out.println(" Both Lines are not equals. ");
+            System.out.println(" line 2 is greater than line 1 ");
         }
     }
-}
+          private static boolean compare(double lineLength1, double lineLength2) {
+           return false;
+        }
+    }
+
 
