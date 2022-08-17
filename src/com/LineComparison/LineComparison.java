@@ -41,6 +41,7 @@ public class LineComparison {
     }
           private static boolean compare(double lineLength1, double lineLength2) {
            return false;
+
         }
     }
 
